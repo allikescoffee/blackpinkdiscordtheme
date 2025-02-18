@@ -1,52 +1,51 @@
 /* Black and Pink Discord Theme for BetterDiscord */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600&display=swap');
 
 :root {
-    --background-primary: #111;
-    --background-secondary: #1a1a1a;
-    --background-tertiary: #222;
-    --text-normal: #ff77a9;
-    --text-muted: #ff99c8;
-    --text-link: #ff4d94;
-    --header-primary: #ff66a3;
-    --header-secondary: #ff85b3;
-    --interactive-normal: #ff5c8d;
-    --interactive-hover: #ff77a9;
-    --interactive-active: #ff99c8;
-    --interactive-muted: #773355;
-}
+    /* font */
+    --font: 'Figtree';
 
-/* General UI Tweaks */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--background-primary);
-}
+    /* top left corner text */
+    --corner-text: 'Black & Pink Theme';
 
-.theme-dark {
-    --background-primary: #111;
-    --background-secondary: #1a1a1a;
-    --background-tertiary: #222;
-    --background-accent: #ff4d94;
-}
+    /* status indicators */
+    --online-indicator: #ff66a3;
+    --dnd-indicator: #ff4d94;
+    --idle-indicator: #ff99c8;
+    --streaming-indicator: #ff77a9;
 
-/* Sidebar Customization */
-.sidebar-2K8pFh {
-    background-color: var(--background-secondary);
-}
+    /* accent colors */
+    --accent-1: #ff66a3;
+    --accent-2: #ff4d94;
+    --accent-3: #ff5c8d;
+    --accent-4: #ff77a9;
+    --accent-5: #ff99c8;
+    --mention: rgba(255, 77, 148, 0.1);
+    --mention-hover: rgba(255, 77, 148, 0.05);
 
-/* Chat Messages */
-.message-2qnXI6 {
-    background-color: var(--background-tertiary) !important;
-    color: var(--text-normal) !important;
-}
+    /* text colors */
+    --text-0: white;
+    --text-1: var(--text-2);
+    --text-2: #ff99c8;
+    --text-3: #ff85b3;
+    --text-4: #ff77a9;
+    --text-5: #773355;
 
-/* Links */
-.anchor-3Z-8Bb {
-    color: var(--text-link) !important;
-}
+    /* background colors */
+    --bg-1: #111;
+    --bg-2: #1a1a1a;
+    --bg-3: #222;
+    --bg-4: #000;
+    --hover: rgba(255, 77, 148, 0.1);
+    --active: rgba(255, 77, 148, 0.2);
+    --message-hover: rgba(255, 0, 102, 0.1);
 
-/* User Popout */
-.userPopout-3XzG_A {
-    background-color: var(--background-tertiary) !important;
+    /* corner roundness */
+    --roundness-xl: 22px;
+    --roundness-l: 20px;
+    --roundness-m: 16px;
+    --roundness-s: 12px;
+    --roundness-xs: 10px;
+    --roundness-xxs: 8px;
 }
